@@ -36,7 +36,7 @@ const Footer = ()=>{
                 </div>
                 <div className="row m-0 pt-4">
                     <div className="col-lg-7">
-                        <p className="text-white fs-11 text-start">Copyright © 2022 Balmukunda Dawadi. All Rights Reserved. <a href="https://www.developersgd.com/" target="_blank" class="text-white">Design &amp; Developed by G&amp;D Developers.</a></p>
+                        <p className="text-white fs-11 text-start">Copyright © 2022 राज गौतम. All Rights Reserved. <a href="https://www.developersgd.com/" target="_blank" class="text-white">Design &amp; Developed by G&amp;D Developers.</a></p>
                     </div>
                     <div className="col-lg p-0 text-end no-display">
                         <ul>

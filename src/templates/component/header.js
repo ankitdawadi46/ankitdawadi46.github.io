@@ -28,7 +28,7 @@ const Header = ()=>{
                     <div className="col-3 p-0">
                         <div className="d-flex pt-1">
                             <Link to="/" className="text-decoration-none text-dark">
-                                <h1 className="fs-6 fw-bolder text-dark">अनुप राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
+                                <h1 className="fs-6 fw-bolder text-dark">राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
                             </Link>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ const Header = ()=>{
             <div className="row m-0">
                 <div className="col p-0 pt-2">
                     <Link to="/" className="text-decoration-none text-dark ">
-                        <h1 className="fs-6 fw-bolder text-color fam-12 text-start">अनुप राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
+                        <h1 className="fs-6 fw-bolder text-color fam-12 text-start"> राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
                     </Link>
                 </div>
                 <div className="col p-0 text-end">
@@ -70,7 +70,7 @@ const Header = ()=>{
           >
   
             <h2 ref={_subtitle => (subtitle = _subtitle)}><Link to="/" className="text-decoration-none text-dark ">
-                                            <h1 className="fs-6 fw-bolder text-color fam-12 text-start">अनुप राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
+                                            <h1 className="fs-6 fw-bolder text-color fam-12 text-start"> राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
                                         </Link></h2>
             <i className="fa fa-times position-absolute text-danger close-button" onClick={closeModal}></i>
             <div className="mt-5 text-start">

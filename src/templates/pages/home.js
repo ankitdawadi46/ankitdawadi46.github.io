@@ -13,6 +13,7 @@ import Sus from '../../static/img/sushil.png';
 import Sher from '../../static/img/sher.jpeg';
 import Nepali from '../../static/img/nepali-congress.png';
 import Nepal_flag from '../../static/img/Flag_of_Nepal.png';
+import Dummy from '../../static/img/dummy.png';
 
 
 const Home = ()=>{
@@ -89,11 +90,11 @@ const Home_page = ()=>{
                             <img src={Image} className="w-100" height="330px" alt="pp" />
                         </div>
                         <div className="col-lg-3 p-4 ms-lg-3 text-start border-end ">
-                            <p className="fs-16">नाम: अनुप राज गौतम</p>
-                            <p className="fs-16">जन्म स्थान: चन्दगिरि-१३</p>
-                            <p className="fs-16">बुवाको नाम: अनुप राज गौतम</p>
-                            <p className="fs-16">आमाको नाम: अनुप राज गौतम</p>
-                            <p className="fs-16">पति/पत्नीको नाम: अनुप राज गौतम</p>
+                            <p className="fs-16">नाम: राज गौतम</p>
+                            <p className="fs-16">जन्म स्थान: राज गौतम</p>
+                            <p className="fs-16">बुवाको नाम: राज गौतम</p>
+                            <p className="fs-16">आमाको नाम: राज गौतम</p>
+                            <p className="fs-16">पति/पत्नीको नाम: राज गौतम</p>
                             <p className="fs-16">शैक्षिक विवरण: स्नातक</p>
                             <p className="fs-16">अतिरिक्त गतिविधिहरू: फुटबल, क्रिकेट</p>
                         </div>
@@ -110,54 +111,54 @@ const Home_page = ()=>{
                     <div className="bg-light shadow-sm">
                         <div className="row m-0">
                             <div className="col-lg-2 p-0 mt-5 pt-lg-5 p-lg-4">
-                                <img src={Congress} className="w-100 mt-5 pt-2" alt="party"/>
+                                <img src={Nepal_flag} className="w-50 mt-5 pt-2" alt="party"/>
                             </div>
                             <div className="col p-4 ms-2 me-2">
                                 <div>
-                                    <p className="fs-2 text-color fw-bolder">नेपाली कांग्रेस</p>
+                                    <p className="fs-2 text-color fw-bolder">Hamro party</p>
                                 </div>
                                 <div className="col-lg-6 p-0 m-auto">
                                     <div className="row m-0 mt-4">
                                         <div className="col p-0">
-                                            <h1 className="fs-5 fw-bolder fam-12">राष्ट्रियता</h1>
+                                            <h1 className="fs-5 fw-bolder fam-12">Slogan</h1>
                                         </div>
                                         <div className="col p-0">
-                                            <h1 className="fs-5 fw-bolder fam-12">लोकतन्त्र</h1>
+                                            <h1 className="fs-5 fw-bolder fam-12">Slogan</h1>
                                         </div>
                                         <div className="col p-0">
-                                            <h1 className="fs-5 fw-bolder fam-12">समाजवाद</h1>
+                                            <h1 className="fs-5 fw-bolder fam-12">Slogan</h1>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row m-0 mt-4">
                                     <div className="col-lg p-0">
-                                        <img src={Bp} className="w-100 congress-border shadow" alt="images-congress" />
-                                        <p className="fs-13 text-color fw-bolder mt-4">वीपी कोइराला</p>
+                                        <img src={Dummy} className="w-100 congress-border shadow" alt="images-congress" />
+                                        <p className="fs-13 text-color fw-bolder mt-4">राज गौतम</p>
                                     </div>
                                     <div className="col-lg p-0 ms-lg-5">
-                                        <img src={Sam} className="w-100 congress-border shadow" alt="images-congress" />
-                                        <p className="fs-13 text-color fw-bolder mt-4">सुवर्ण शमशेर</p>
+                                        <img src={Dummy} className="w-100 congress-border shadow" alt="images-congress" />
+                                        <p className="fs-13 text-color fw-bolder mt-4">राज गौतम</p>
                                     </div>
                                     <div className="col-lg p-0 ms-lg-5">
-                                        <img src={Gan} className="w-100 congress-border shadow" alt="images-congress" />
-                                        <p className="fs-13 text-color fw-bolder mt-4">गणेशमान सिंह</p>
+                                        <img src={Dummy} className="w-100 congress-border shadow" alt="images-congress" />
+                                        <p className="fs-13 text-color fw-bolder mt-4">राज गौतम</p>
                                     </div>
                                     <div className="col-lg p-0 ms-lg-5">
-                                        <img src={Kris} className="w-100 congress-border shadow" alt="images-congress" />
-                                        <p className="fs-13 text-color fw-bolder mt-4">कृष्णप्रसाद भट्टराई</p>
+                                        <img src={Dummy} className="w-100 congress-border shadow" alt="images-congress" />
+                                        <p className="fs-13 text-color fw-bolder mt-4">राज गौतम</p>
                                     </div>
                                     <div className="col-lg p-0 ms-lg-5">
-                                        <img src={Giri} className="w-100 congress-border shadow" alt="images-congress" />
-                                        <p className="fs-13 text-color fw-bolder mt-4">गिरिजाप्रसाद कोइराला</p>
+                                        <img src={Dummy} className="w-100 congress-border shadow" alt="images-congress" />
+                                        <p className="fs-13 text-color fw-bolder mt-4">राज गौतम</p>
                                     </div>
                                     <div className="col-lg p-0 ms-lg-5">
-                                        <img src={Sus} className="w-100 congress-border shadow" alt="images-congress" />
-                                        <p className="fs-13 text-color fw-bolder mt-4">सुशील कोइराला</p>
+                                        <img src={Dummy} className="w-100 congress-border shadow" alt="images-congress" />
+                                        <p className="fs-13 text-color fw-bolder mt-4">राज गौतम</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-2 p-0 mt-lg-5 pt-lg-5">
-                                <img src={Nepali} className="w-100 mt-5" alt="party"/>
+                                <img src={Nepal_flag} className="w-50 mt-5" alt="party"/>
                             </div>
                         </div>
                     </div>
@@ -169,19 +170,20 @@ const Home_page = ()=>{
                     <div className="bg-light shadow-sm">
                         <div className="row m-0">
                             <div className="col-lg-3 p-0">
-                                <img src={Sher} className="w-100" height="380px" alt="party"/>
+                                <img src={Dummy} className="w-100" height="380px" alt="party"/>
                             </div>
                             <div className="col-lg p-4 ms-lg-3">
                                 {/* <div>
                                     <h1 className="text-color fs-5 text-start">सन्देश:</h1>
                                 </div> */}
                                 <div className="mt-4">
-                                    <p className="fs-16 text-dark text-start">नेपाल देशको उन्नति अनि नेपाली जनताको समग्र प्रगति नेपाली कांग्रेसको मुल अभिष्ट हो l वीपी कोइरालाको विचार, कैयन सहिदको बलिदान, हजारौं योद्धाको समर्पण र लाखौं सदस्यको अनवरत यात्रा हाम्रो त्यही अभिष्टमा केन्द्रित र लक्ष्यित छ l</p>
+                                    {/* <p className="fs-16 text-dark text-start">नेपाल देशको उन्नति अनि नेपाली जनताको समग्र प्रगति नेपाली कांग्रेसको मुल अभिष्ट हो l वीपी कोइरालाको विचार, कैयन सहिदको बलिदान, हजारौं योद्धाको समर्पण र लाखौं सदस्यको अनवरत यात्रा हाम्रो त्यही अभिष्टमा केन्द्रित र लक्ष्यित छ l</p>
                                     <p className="fs-16 text-dark text-start">वीपी संगै सुवर्ण शमशेर, गणेशमान सिंह, कृष्णप्रसाद भट्टराई, गिरिजाप्रसाद कोइराला र सुशील कोइरालाले विभिन्न कालखण्डमा यो पार्टीको र समग्र देशको नेतृत्व गर्नुभयो l उहाँहरुको नेतृत्वमा मुलुकले हासिल गरेको राजनैतिक र आर्थिक उपलब्धिको जगमा हामीले नेपाल देशको समृद्धि र खुसी प्राप्तिको यात्रालाई अघि बढाउनु छ l</p>
-                                    <p className="fs-16 text-dark text-start">राष्ट्रियता,लो कतन्त्र र समाजवादको सिद्धान्त एवं आदर्शप्रति अटुट आस्था, दृढ़ अडान र निरन्तर अभियानमा नेपाली कांग्रेस सदैब अविचलित रहनेछ l</p>
-                                    <p className="fs-16 text-color fw-bolder text-start">जय नेपाल । </p>
-                                    <p className="fs-16 text-color fw-bolder text-start">शेरबहादुर देउवा</p>
-                                    <p className="fs-16 text-color fw-bolder text-start">सभापति, नेपाली कांग्रेस</p>
+                                    <p className="fs-16 text-dark text-start">राष्ट्रियता,लो कतन्त्र र समाजवादको सिद्धान्त एवं आदर्शप्रति अटुट आस्था, दृढ़ अडान र निरन्तर अभियानमा नेपाली कांग्रेस सदैब अविचलित रहनेछ l</p> */}
+                                     <p className="fs-16 text-dark text-start">स्थानीय तहको निर्वाचनअघि नै कक्षा १–१० को शैक्षिकसत्र अन्त्य गरी परीक्षासमेत सञ्चालन गर्न राष्ट्रिय परीक्षा बोर्डले तयारी थालेको छ । कोभिड संक्रमणका कारण शैक्षिकसत्रको सुरुमा र अहिले पनि पठनपाठन प्रभावित बनिरहेको छ । चुनावका कारण पठनपाठन अझ प्रभावित हुन सक्ने भएकाले बोर्डले त्यसअघि नै परीक्षा सकेर नयाँ शैक्षिकसत्रको तयारी गर्न लागेको हो ।</p>
+                                    <p className="fs-16 text-color fw-bolder text-start">नेपाल । </p>
+                                    <p className="fs-16 text-color fw-bolder text-start">राज गौतम</p>
+                                    <p className="fs-16 text-color fw-bolder text-start">सभापति, Hamro Party</p>
                                 </div>
                             </div>
                         </div>
