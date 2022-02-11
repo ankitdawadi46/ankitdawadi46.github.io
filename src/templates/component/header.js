@@ -28,20 +28,20 @@ const Header = ()=>{
                     <div className="col-3 p-0">
                         <div className="d-flex pt-1">
                             <Link to="/" className="text-decoration-none text-dark">
-                                <h1 className="fs-6 fw-bolder text-color">अनुप राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
+                                <h1 className="fs-6 fw-bolder text-dark">अनुप राज गौतम<img src={Flag} className="flag-width ms-1" alt="ala" /></h1>
                             </Link>
                         </div>
                     </div>
                     <div className="col p-0 text-start">
                         <nav>
                             <ul>
-                                <li className="d-inline-block px-3"><Link to="/" className="text-decoration-none text-color fs-14 fw-bolder">गृहपृष्ठ</Link></li>
-                                <li className="d-inline-block px-3"><a href="#परिचय" className="text-decoration-none text-color fs-14 fw-bolder">परिचय</a></li>
-                                <li className="d-inline-block px-3"><Link to="/karya/upalapdi" className="text-decoration-none text-color fs-14 fw-bolder">कार्य र उपलब्धि</Link></li>
-                                <li className="d-inline-block px-3"><Link to="/election" className="text-decoration-none text-color fs-14 fw-bolder">चुनावी घोषणापत्र</Link></li>
-                                <li className="d-inline-block px-3"><Link to="/photo/video" className="text-decoration-none text-color fs-14 fw-bolder">फोटो र भिडियो</Link></li>
-                                <li className="d-inline-block px-3"><a href="https://election.gov.np/uploads/content/1572014966_np.pdf" target="_blank" className="text-decoration-none text-color fs-14 fw-bolder">निर्वाचन आचारसंहिता</a></li>
-                                <select className="px-4 fs-14 fw-bolder select-option border-0 header-index text-color">
+                                <li className="d-inline-block px-3"><Link to="/" className="text-decoration-none text-dark fs-14 fw-bolder">गृहपृष्ठ</Link></li>
+                                <li className="d-inline-block px-3"><a href="#परिचय" className="text-decoration-none text-dark fs-14 fw-bolder">परिचय</a></li>
+                                <li className="d-inline-block px-3"><Link to="/karya/upalapdi" className="text-decoration-none text-dark fs-14 fw-bolder">कार्य र उपलब्धि</Link></li>
+                                <li className="d-inline-block px-3"><Link to="/election" className="text-decoration-none text-dark fs-14 fw-bolder">चुनावी घोषणापत्र</Link></li>
+                                <li className="d-inline-block px-3"><Link to="/photo/video" className="text-decoration-none text-dark fs-14 fw-bolder">फोटो र भिडियो</Link></li>
+                                <li className="d-inline-block px-3"><a href="https://election.gov.np/uploads/content/1572014966_np.pdf" target="_blank" className="text-decoration-none text-dark fs-14 fw-bolder">निर्वाचन आचारसंहिता</a></li>
+                                <select className="px-4 fs-14 fw-bolder select-option border-0 header-index text-dark">
                                     <option>Nepali</option>
                                     <option>English</option>
                                 </select>
